@@ -1,0 +1,74 @@
+08.02.2019 11:07:01
+Error () 
+SELECT * FROM ok_languages WHERE 1 ORDER BY position
+----------------------
+
+08.02.2019 11:07:02
+Error () 
+SELECT name, value FROM ok_settings
+----------------------
+
+08.02.2019 11:07:02
+Error () 
+SELECT * FROM ok_settings_lang WHERE 1 
+----------------------
+
+08.02.2019 11:07:04
+Error () 
+SHOW TABLES LIKE '%ok_languages%'
+----------------------
+
+08.02.2019 11:07:04
+Error () 
+SELECT 
+                c.id, 
+                c.code, 
+                c.rate_from, 
+                c.rate_to, 
+                c.cents, 
+                c.position, 
+                c.enabled, 
+                c.name, c.sign
+            FROM ok_currencies c
+            
+            ORDER BY c.position
+        
+----------------------
+
+08.02.2019 11:07:09
+Error () 
+SELECT * FROM ok_languages WHERE 1 ORDER BY position
+----------------------
+
+08.02.2019 11:07:09
+Error () 
+SELECT name, value FROM ok_settings
+----------------------
+
+08.02.2019 11:07:09
+Error () 
+SELECT * FROM ok_settings_lang WHERE 1 
+----------------------
+
+08.02.2019 11:07:09
+Error () 
+SHOW TABLES LIKE '%ok_languages%'
+----------------------
+
+08.02.2019 11:07:09
+Error () 
+SELECT 
+                c.id, 
+                c.code, 
+                c.rate_from, 
+                c.rate_to, 
+                c.cents, 
+                c.position, 
+                c.enabled, 
+                c.name, c.sign
+            FROM ok_currencies c
+            
+            ORDER BY c.position
+        
+----------------------
+
